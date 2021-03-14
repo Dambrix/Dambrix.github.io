@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gif-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#gif-under-construction {
+    height: 100%;
+    margin: auto;
+    padding: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .gif-container {
+        width: 100vw;
+        height: auto;
+    }
+    
+    #gif-under-construction {
+        width: 100%;
+        margin: auto;
+        padding: 3%;
+    }
+}
